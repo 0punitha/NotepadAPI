@@ -1,0 +1,32 @@
+<html>
+    <body>
+        <h2>notepad</h2>
+    <form method = "POST" action = "http://localhost:5000/add_user">
+    sno: <input type = "text" name = "sno"> <br><br>
+    name: <input type = "text" name = "name"><br><br>
+    Notes: <input type="text" name="notes"><br><br>
+    <input type = "submit" value = "Submit">
+
+</form>
+
+
+<h2>notepad update</h2>
+    <form method = "POST" action = "http://localhost:5000/update_user">
+    sno (to update): <input type = "text" name = "sno"> <br><br>
+    new name: <input type = "text" name = "name"><br><br>
+    new Notes: <input type="text" name="notes"><br><br>
+    <input type = "submit" value = "Submit">
+
+
+</form>
+
+
+    <h2> delete notepad</h2>
+    <form method = "POST" action = "http://localhost:5000/delete_user">
+    sno (to delete): <input type = 'text' name = "sno"> <br><br>
+    <input type = "submit" value = "Submit">
+
+    
+</form>
+</body>
+</html>
